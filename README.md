@@ -3,7 +3,7 @@
 A full-stack flight booking web application built with Next.js, Supabase, and Zustand.
 
 ## 🚀 Live Demo
-Coming soon
+https://flight-management-omega.vercel.app
 
 ## 🛠️ Tech Stack
 - **Frontend:** Next.js 16 (App Router), Tailwind CSS
