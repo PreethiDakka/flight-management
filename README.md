@@ -95,3 +95,14 @@ migrations/      → SQL migration files
 - Passport numbers never stored in localStorage
 - Service role key never exposed to the client
 - Seat reservation uses DB-level locking to prevent race conditions
+
+## 📊 Lighthouse Score
+
+![Lighthouse Score](./public/lighthouse.png)
+
+| Category | Score |
+|----------|-------|
+| Performance | 71 |
+| Accessibility | 98 |
+| Best Practices | 100 |
+| SEO | 100 |
