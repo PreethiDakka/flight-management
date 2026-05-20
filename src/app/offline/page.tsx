@@ -1,15 +1,39 @@
 export default function OfflinePage() {
   return (
-    <div className="min-h-screen flex items-center justify-center p-4 bg-gray-50">
-      <div className="bg-white rounded-xl shadow-sm border border-gray-100 p-12 text-center max-w-md">
-        <p className="text-6xl mb-4">✈️</p>
-        <h1 className="text-2xl font-bold mb-2">You are offline</h1>
-        <p className="text-gray-500 mb-6">
+    <div style={{
+      minHeight: '100vh',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      padding: '1rem',
+      backgroundColor: '#f9fafb'
+    }}>
+      <div style={{
+        backgroundColor: 'white',
+        borderRadius: '0.75rem',
+        padding: '3rem',
+        textAlign: 'center',
+        maxWidth: '28rem',
+        border: '1px solid #f3f4f6'
+      }}>
+        <p style={{ fontSize: '3rem', marginBottom: '1rem' }}>✈️</p>
+        <h1 style={{ fontSize: '1.5rem', fontWeight: 'bold', marginBottom: '0.5rem' }}>
+          You are offline
+        </h1>
+        <p style={{ color: '#6b7280', marginBottom: '1.5rem' }}>
           No internet connection. Your last saved bookings are still available.
         </p>
         
           href="/my-bookings"
-          className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors inline-block"
+          style={{
+            backgroundColor: '#2563eb',
+            color: 'white',
+            padding: '0.75rem 1.5rem',
+            borderRadius: '0.5rem',
+            fontWeight: '600',
+            textDecoration: 'none',
+            display: 'inline-block'
+          }}
         >
           View Saved Bookings
         </a>
