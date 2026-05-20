@@ -7,7 +7,6 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'FlightApp — Book Flights Instantly',
   description: 'Search, book and manage your flights with ease',
-  manifest: '/manifest.json',
 }
 
 export default function RootLayout({
